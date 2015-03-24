@@ -32,8 +32,8 @@
     </organization>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com:bq/lib-config.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:bq/lib-config.git</developerConnection>
+        <connection>scm:git:git@github.com:bq/lib-config.git</connection>
+        <developerConnection>scm:git:git@github.com:bq/lib-config.git</developerConnection>
         <url>https://github.com/bq/lib-config</url>
         <tag>HEAD</tag>
     </scm>
