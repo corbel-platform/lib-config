@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2013 StarTIC
- */
 package com.bq.oss.lib.config;
 
 /**
