@@ -11,9 +11,12 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 /**
  * Importing this Spring configuration activates the standard SilkRoad configuration mechanism:
  *
- * - First load properties in classpath:${conf.namespace}/defaults.properties<br />
- * - Then load properties in classpath:environment.properties<br />
- * - Local system properties override configuration in files<br />
+ * <ul>
+ *     <li>First load properties in classpath:${conf.namespace}/defaults.properties</li>
+ *     <li>Then load properties in classpath:environment.properties</li>
+ * </ul>
+ *
+ * <p>Local system properties override configuration in files</p>
  *
  * @author Alexander De Leon
  *
