@@ -1,0 +1,9 @@
+language: java
+jdk:
+- oraclejdk8
+script:
+- mvn clean deploy --settings settings.xml
+env:
+  global:
+  - secure: I0M+AmBfT/A1YXdFAtk5H2xKVeAGamEkIlVfGtRKBLdu8If2sqVlEMWigQQLrbvQ5r388uTQdcEacXoaSV+vXR/1CJZW766lKI3XVwT7aiZG/DpvbwzIA7D4x6+xPRturAtpfd1J6u+uqwgfY3Cu39ZRKBYfFe8gKmebUHio7gc=
+  - secure: VCedjxLsJX3utytdkpZU5oUdjSJbnTbEdp3zsIcNxXjOfgDp2KaurEb1T05KZwYOsV01CzEhWrhzVA8wHlgg8EbhOffHp90gX0fmxcxmC66SNumRItKMu8JEOrwSdGUgaqV+bInjBEsPytQtDyA++zVJSQeElLwXQFRmG1XyWnU=

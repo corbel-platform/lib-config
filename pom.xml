@@ -50,4 +50,121 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.5</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/bq/lib-config</url>
+    </ciManagement>
+
+    <issueManagement>
+        <url>https://github.com/bq/lib-config/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <name>David Martínez</name>
+            <email>david.martinez@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Alexander de Leon</name>
+            <email>alexander.deleon@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Alberto J. Rubio</name>
+            <email>alberto.rubio@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Anthanh Pham</name>
+            <email>anthanh.pham@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Francisco Sánchez</name>
+            <email>francisco.sanchez@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Ismael Madirolas</name>
+            <email>ismael.madirolas@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Cristian del Cerro</name>
+            <email>cristian.delcerro@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Rubén Carrasco</name>
+            <email>rcarrasco@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Laura Sada</name>
+            <email>laura.sada@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Luis Miguel García</name>
+            <email>luismiguel.garcia@bq.com</email>
+            <timezone>Europe/Madrid</timezone>
+            <roles>
+                <role>committer</role>
+            </roles>
+        </developer>
+    </developers>
+
 </project>
