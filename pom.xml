@@ -11,7 +11,7 @@
 
     <groupId>com.bq.oss.lib</groupId>
     <artifactId>config</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.2.0</version>
 
     <name>config</name>
 
@@ -35,7 +35,7 @@
         <connection>scm:git:git@github.com:bq/lib-config.git</connection>
         <developerConnection>scm:git:git@github.com:bq/lib-config.git</developerConnection>
         <url>https://github.com/bq/lib-config</url>
-        <tag>HEAD</tag>
+        <tag>config-0.2.0</tag>
     </scm>
 
     <dependencies>
