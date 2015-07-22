@@ -1,7 +1,4 @@
-/*
- * Copyright (C) 2013 StarTIC
- */
-package com.bq.oss.lib.config;
+package io.corbel.lib.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 /**
- * Importing this Spring configuration activates the standard SilkRoad configuration mechanism:
+ * Importing this Spring configuration activates the standard Corbel configuration mechanism:
  *
  * <ul>
  *     <li>First load properties in classpath:${conf.namespace}/defaults.properties</li>
